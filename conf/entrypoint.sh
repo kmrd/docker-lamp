@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Run Postfix
 /usr/sbin/postfix start
 
