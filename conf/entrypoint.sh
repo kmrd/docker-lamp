@@ -5,4 +5,7 @@
 /usr/bin/mysqld_safe --timezone=${DATE_TIMEZONE}&
 
 # Start Apache
-/usr/sbin/apachectl -DFOREGROUND -k start -e debug
+# /usr/sbin/apachectl -DFOREGROUND -k start -e debug
+service apache2 start
+
+/bin/bash
